@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --background: #F0F2F5;
+    --btn-primary: #166FE5;
+    --btn-primary-h: #1162cc;
+    --btn-success: #36A420;
+    --btn-success-h: #30961b;
+    --logo-primary: #1877F2;
+    --text-color: #1C1E21;
+    --text-font: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+main {
+    background-color: var(--background);
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+.txt {
+    padding: 0 1.8rem;
+}
+
+.fb-txt {
+    font-size: clamp(12px, 1.8rem, 5vh);
+    line-height: 2.2rem;
+}
+
+.row {
+    justify-content: center;
+}
+
+.col {
+    max-width: 500px;
+}
+
+.ajust {
+    margin-bottom: 3rem;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.116);
+    max-width: 400px;
+}
+
+input {
+    height: 48px;
+    padding-left: 1rem;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    caret-color: var(--logo-primary);
+}
+
+input:focus {
+    outline: none !important;
+    border-color: var(--logo-primary);
+}
+
+.form input[type="password"] {
+    margin-top: .5rem;
+}
+
+.lose-pass {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.btn-login {
+    margin-top: 1rem;
+    background-color: var(--btn-primary);
+    color: #ffffff;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.btn-login:hover {
+    background-color: var(--btn-primary-h);
+    color: #ffffff;
+}
+
+.btn-new-account {
+    margin: auto;
+    background-color: var(--btn-success);
+    color: #ffffff;
+    height: 48px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.btn-new-account:hover {
+    background-color: var(--btn-success-h);
+    color: #ffffff;
+}
+
+.form-text {
+    margin-top: 1.5rem;
+    color: var(--text-color);
+}
+
+.create-page {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.create-page:hover {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 980px;
+    height: max-content;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    margin-top: .8rem;
+    color: #838383;
+}
+
+.language {
+    margin-right: .5rem;
+    color: #838383;
+}
+
+.language:hover {
+    color: #838383;
+}
